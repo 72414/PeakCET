@@ -1,12 +1,12 @@
-PeakCET
+# PeakCET
 A 2D peak detection algorithm called PeakCET based on Contour Edge Tracking and mass spectra vectors clustering for fast and effective analysis of two-dimensional (2D) fingerprints is presented. The algorithm starts by converting the raw file of comprehensive two-dimensional gas chromatographic (GC×GC) into a pixel matrix, followed by contour edge tracking. In order to optimize the detection results in the presence of false negatives, mass spectra vectors of local maximum points within the contour are subjected to Affinity Propagation (AP) clustering.
 In order to facilitate readers to better observe the detection results, we visualize PeakCET as an interface.
-Requirements 
+# Requirements 
 Python, version 3.9 or greater
 OpenCV 3.4.2
 Windows 11
 Install additional libraries, listed in the requirements.txt
-Usage
+# Usage
 1.	Prepare the file in mat format after data preprocessing.
 2.	Create a folder for storing individual contour pictures.
 3.	Run PeakCET.py, and the visualization interface will pop up.
