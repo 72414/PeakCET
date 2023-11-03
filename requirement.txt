@@ -1,0 +1,11 @@
+os
+numpy
+pandas
+scipy
+operator
+tkinter
+ttkbootstrap
+PIL
+copy
+Image
+sklearn
